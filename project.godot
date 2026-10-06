@@ -18,15 +18,16 @@ config/features=PackedStringArray("4.7", "GL Compatibility")
 [autoload]
 
 Data="*res://scripts/data.gd"
+Levels="*res://scripts/levels.gd"
 
 [display]
 
-window/size/viewport_width=1180
-window/size/viewport_height=720
+window/size/viewport_width=1240
+window/size/viewport_height=760
 window/stretch/mode="canvas_items"
 
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
-environment/defaults/default_clear_color=Color(0.055, 0.055, 0.086, 1)
+environment/defaults/default_clear_color=Color(0.957, 0.945, 0.910, 1)
